@@ -1,14 +1,16 @@
 body {
-  background-color: #fef9ef;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  background-color: #fff;
+}
+body > div {
+  margin: 0px auto;
+  background-color: #fff;
+  width: 1400px;
 }
 main * {
   border-radius: 10px;
 }
 main {
-  background-color: #a2d2ff;
+  /*  background-color: #a2d2ff;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,6 +18,12 @@ main {
   align-items: center;
   margin: 20px;
 }
+
+.subtitle {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .nav-custom {
   display: flex;
   flex-direction: column;
@@ -30,21 +38,13 @@ main {
   background-color: #a2d2ff;
 }
 .background-second {
-  background-color: #fef9ef;
+  background-color: #fff;
 }
 .background-third {
   background-color: #ff865e;
 }
 .background-fourth {
   background-color: #fee440;
-}
-
-.content-sections {
-  margin: 10px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .footer-custom {
@@ -54,7 +54,7 @@ main {
 }
 
 .image--cover {
-  margin: 20px;
+  margin: auto;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -62,12 +62,66 @@ main {
   object-position: center right;
   align-items: center;
 }
+
+.content-sections {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .sections_wrapper {
   width: 100%;
-  background-color: crimson;
+  background-color: #fff;
+  margin-bottom: 20px;
 }
 
 .card_section {
-  margin: 10px;
-  background-color: #fee440;
+  width: 98%;
+  margin: 0px auto;
+  background-color: #fff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 25px;
+}
+
+#sobre_mi {
+  display: flex;
+  flex-direction: row;
+  /*background-color: #a2d2ff;*/
+  margin: 20px;
+}
+
+#sobre_mi > section {
+  width: 65%;
+}
+
+#logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logos > img {
+  height: 150px;
+}
+
+#logos > .globant {
+  height: 110px;
+}
+
+#logos > .quality {
+  height: 110px;
+}
+
+.badges {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo_red {
+  float: center;
+  margin-right: 10px;
+  height: 80px;
+  width: 80px;
 }
