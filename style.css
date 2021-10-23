@@ -1,7 +1,9 @@
 body {
   background-color: #fff;
 }
-body > div {
+body > div,
+nav,
+footer {
   margin: 0px auto;
   background-color: #fff;
   width: 1400px;
@@ -34,23 +36,13 @@ main {
   width: 100%;
   border-radius: 10px;
 }
-.background-primary {
-  background-color: #a2d2ff;
-}
-.background-second {
-  background-color: #fff;
-}
-.background-third {
-  background-color: #ff865e;
-}
-.background-fourth {
-  background-color: #fee440;
-}
 
 .footer-custom {
   width: 100%;
   text-align: center;
   margin: 10px;
+  border-radius: 10px;
+  background-color: #fff;
 }
 
 .image--cover {
@@ -88,12 +80,14 @@ main {
 #sobre_mi {
   display: flex;
   flex-direction: row;
-  /*background-color: #a2d2ff;*/
   margin: 20px;
 }
 
 #sobre_mi > section {
   width: 65%;
+}
+#sobre_mi section > * {
+  padding: 20px;
 }
 
 #logos {
@@ -124,4 +118,10 @@ main {
   margin-right: 10px;
   height: 80px;
   width: 80px;
+}
+.badges > span {
+  margin: 3px;
+}
+.sections_wrapper section p {
+  padding: 20px;
 }
